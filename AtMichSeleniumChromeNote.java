@@ -198,11 +198,6 @@ public class AtMichSeleniumChromeNote {
                         + " already_nice:" + no_of_alreadynice + " nice_fail:" + no_of_nicefail + " transfer_fail:"
                         + no_of_transferfail + " click_fail:"
                         + no_of_clickfail);
-//                logger.log(Level.INFO, "access:" + no_of_access + " nice:" + no_of_nice + " skip:"
-//                        + no_of_skip + " non_title:" + no_of_nontitle + " no_nice_button:" + no_of_nonicebutton
-//                        + " already_nice:" + no_of_alreadynice + " nice_fail:" + no_of_nicefail + " transfer_fail:"
-//                        + no_of_transferfail + " click_fail:"
-//                        + no_of_clickfail);
                 /* getString()メソッドは、引数に指定されたフィールド名(列)の値をStringとして取得する */
                 blog_active_flg = result.getInt("active_flg");
                 blog_id = result.getInt("id");
